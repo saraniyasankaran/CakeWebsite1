@@ -1,0 +1,266 @@
+ body{
+    position: absolute;
+    background-color: #3f3d39;
+
+   margin: 0%;
+}
+.sec{
+    background-color: #3f3d39;
+    height: 400px;
+    width: 1340px;
+}
+.cake1{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+}
+.cake1:hover{
+    height: 245px;
+    width: 245px;
+}
+.cake2{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+}
+.cake2:hover{
+    height: 245px;
+    width: 245px;
+}
+.cake3{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+}
+.cake3:hover{
+    height: 245px;
+    width: 245px;
+}
+.cake4{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 200px;
+    width: 200px;
+}
+.cake4:hover{
+    height: 245px;
+    width: 245px;
+}
+
+.text1{
+    font-family: 'Cardo';
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 40%;
+}
+.text2{
+    font-family: 'Cardo';
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 42%;
+}
+.text3{
+    font-family: 'Cardo';
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 45%;
+}
+.text4{
+    font-family: 'Cardo';
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 45%;
+}
+.name1{
+    font-family: 'Cardo';
+    margin-left: 60%;
+    color: #BF9005;
+}
+.name2{
+    font-family: 'Cardo';
+    margin-left:60% ;
+    color: #BF9005;
+}
+.name3{
+    font-family: 'Cardo';
+    margin-left:50%;
+    color: #BF9005;
+}
+.name4{
+    font-family: 'Cardo';
+    color: #BF9005;
+    margin-left:50% ;
+}
+.third{
+    display: flex;
+    background-color:black;
+    height: 400px;
+    
+}
+.left{
+    color: #858177;
+     margin-top: 10.5%;
+     margin-left: 10%;
+}
+.line{
+    margin-top:0%;
+    margin-left: 20%;
+    border-left: 2px solid #858177;
+    height: 200px;
+    position:absolute;
+}
+.line1{
+    margin-top:2%;
+    margin-left: 28%;
+    border-left: 2px solid #858177;
+    height: 200px;
+    position:absolute;
+}
+.center{
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.crown2{
+    height: 80px;
+    margin-left: 15%;
+}
+.about{
+    position: absolute;
+    font-size: 20px;
+    color: #858177;
+    margin-top: 20px;
+    margin-left: 6.5%;  
+}
+.centerpara{
+    color: #858177;
+}
+.map{
+    margin-top: 40%;
+    margin-left: 65%;
+    height: 200px;
+}
+.last{
+    position: relative;
+    background-color: #3f3d39;
+    height: 90px;
+}
+.f{
+    position: absolute;
+    padding-top: 6px;
+    margin-left: 10px;
+    color: #BF9005;
+    
+}
+.ff{
+    margin-left: 550px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #BF9005;
+    border-radius: 50%;
+    display: inline-block; 
+}
+.nxt{
+    height: 32px;
+    width: 32px;
+    border: 1px solid #BF9005;
+    border-radius: 50%;
+    display: inline-block; 
+
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }  
+
+.crown{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 40px;
+    width: 40px;
+}
+.fstfont{
+    position: absolute;
+    font-family: 'Sofia';font-size: 22px;
+    margin-top: 1.5cm;
+    margin-left: 5%;
+    color: #BF9005;
+}
+.apetit{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 140px;
+    transform: rotate(-9deg); 
+}
+.apetit span {
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Cherish';
+    font-weight: bolder;
+    font-size: 50px;
+    color:#BF9005;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+.para{
+    position: absolute;
+    font-family: 'Cardo';
+    margin-top: 250px;
+    margin-left: 220px;
+    color:#858177;
+}
+.btn{ 
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 330px;
+    color: black;
+    border: #BF9005;
+    background-color: #BF9005;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c29d30;
+}
+.slideshow-container {
+    position: relative;
+   
+    max-width: 1370px;
+    
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .myslides{
+    position: relative;
+  
+    
+}

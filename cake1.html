@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Cake1.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Comforter Brush' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cherish' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+<div class="slideshow-container"> 
+    <img src="crown.png" class="crown">
+    <p class="fstfont">Saucet tooth</p>
+    <div  class="apetit">
+        <span style="--i:1">B</span>
+        <span style="--i:2">o</span>
+        <span style="--i:3">n</span>
+        <span style="--i:4">&nbsp;&nbsp;</span>
+        <span style="--i:5">a</span>
+        <span style="--i:6">p</span>
+        <span style="--i:7">e</span>
+        <span style="--i:8">t</span>
+        <span style="--i:9">i</span>
+        <span style="--i:10">t</span>
+        <span style="--i:11">!</span>
+      </div>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quisque vel eros sit amet nulla pellentesue crsus nbam</p>
+            <button class="btn">TASTEFULL</button>
+<div class="mySlides fade">
+  <img src="cake.jpg" style="height: 450px;width: 1370px; margin: 0%;">
+ 
+</div>
+<div class="mySlides fade">
+  <img src="maincake1.jpg" style="height: 450px;width: 1370px;">
+</div>
+<div class="mySlides fade">
+  <img src="maincakee.jpeg" style="height: 450px;width: 1370px;">
+</div>
+<div class="mySlides fade">
+    <img src="maincake4.jpg" style="height: 450px;width: 1370px;">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+<div class="sec">
+    <table>
+        <tr>
+            <td><img src="cake1.png" class="cake1"></td>
+            <td><img src="cake2.png" class="cake2"></td>
+            <td><img src="cake3.png" class="cake3"></td>
+            <td><img src="cake4.png" class="cake4"></td>
+        </tr>
+        <tr>
+            <td><p class="name1">CAKES</p></td>
+            <td><p class="name2">PIECE</p></td>
+            <td><p class="name3">MAKE A WISH</p></td>
+            <td><p class="name4">LENTEN SWEET</p></td>
+        </tr>
+        <tr>
+            <td><p class="text1">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+            <td><p class="text2">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+            <td><p class="text3">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+            <td><p class="text4">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+        </tr> 
+    </table>
+</div>
+<div class="third">
+    <div class="left">
+        <span class="line">
+        </span>
+       <p>Sweet tooth</p>
+       <hr style=" margin-left:0%;width: 70px;">
+       <p>Eightth Avenue 487,New York<br>+3876489389789<br>pastery@sweetthooth.com</p> 
+    </div>
+    <div class="center">
+        <span class="line1">
+        </span>
+      <table>
+        <tr>
+            <td><img src="crown2.png" class="crown2"></td>
+            
+        </tr>
+        <tr>
+            <span class="about"><p>About us</p><hr style="margin-top:0%;margin-left:5%;width: 70px;"></span> 
+        </tr>
+        <tr>
+          <td><p class="centerpara">Sed ac odio aliquet, fringilla odio eget,<br>
+            <span style="margin-left: 3%;">tincidunt nunc. Duis aliquet pulvinar</span><br>
+            <span style="margin-left: 4%;">ante tempor tincidunt. Etiam lacus</span><br>
+            <span style="margin-left: 6%;">eros, viverra non massa tempus,</span><br>
+            <span style="margin-left: 4%;">commodo fringilla nulla. Quisque</span>
+            <br><span style="margin-left:40%;">vehicula.</span></p></td>
+        </tr>
+      </table>
+    </div>
+    <div class="right">
+        <img src="map.png" class="map">
+    </div>
+</div>
+<div class="last">
+    <br>
+    <table>
+        <tr>
+            <td><span class="ff"><a href="#" class="f" ><i class='fa fa-facebook-f'></i></a></span></td>
+            <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-twitter"></i></a></span></td>
+            <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-instagram"></i></a></span></td>
+            <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-youtube"></i></a></span></td>
+            <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-linkedin"></i></a></span></td>
+        </tr>
+    </table>
+</div>
+</div>
+
+</body>
+</html> 
+
+        <!-- <div class="slideshow-container">
+        <div class="navbar fade">
+            <img src="crown.png" class="crown">
+            <p class="fstfont">Saucet tooth
+            <span  class="apetit">
+               <span style="--i:1">B</span>
+               <span style="--i:2">o</span>
+               <span style="--i:3">n</span>
+               <span style="--i:4">&nbsp;&nbsp;</span>
+               <span style="--i:5">a</span>
+               <span style="--i:6">p</span>
+               <span style="--i:7">e</span>
+               <span style="--i:8">t</span>
+               <span style="--i:9">i</span>
+               <span style="--i:10">t</span>
+               <span style="--i:11">!</span>
+            </span>
+        </p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quisque vel eros sit amet nulla pellentesue crsus nbam</p>
+            <button class="btn">TASTEFULL</button>
+        </div>
+        <div class="mySlides fade">
+          </div>
+          <div class="mySlides fade">
+        </div>   
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+        <div class="sec">
+            <table>
+                <tr>
+                    <td><img src="cake1.png" class="cake1"></td>
+                    <td><img src="cake2.png" class="cake1"></td>
+                    <td><img src="cake3.png" class="cake1"></td>
+                    <td><img src="cake4.png" class="cake1"></td>
+                </tr>
+                <tr>
+                    <td><p class="name1">CAKES</p></td>
+                    <td><p class="name2">PIECE</p></td>
+                    <td><p class="name3">MAKE A WISH</p></td>
+                    <td><p class="name4">LENTEN SWEET</p></td>
+                </tr>
+                <tr>
+                    <td><p class="text1">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+                    <td><p class="text2">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+                    <td><p class="text3">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+                    <td><p class="text4">Pastery specialities 100%<br><span style="margin-left: 27%;">chocolate</span></p></td>
+                </tr> 
+            </table>
+        </div>
+           
+            <div class="last">
+                <br>
+                <table>
+                    <tr>
+                        <td><span class="ff"><a href="#" class="f" ><i class='fa fa-facebook-f'></i></a></span></td>
+                        <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-twitter"></i></a></span></td>
+                        <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-instagram"></i></a></span></td>
+                        <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-youtube"></i></a></span></td>
+                        <td><span class="nxt"><a href="#" class="f" ><i class="fa fa-linkedin"></i></a></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div> -->
+    </body>
+</html>
